@@ -2,3 +2,6 @@
 **/.DS_Store
 .env
 .edgeone/
+
+# 备份文件
+*.bak

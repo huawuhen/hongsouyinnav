@@ -26,6 +26,14 @@
     transition: all 0.3s ease;
 }
 
+/* 站点卡片由 div 统一为 <a> 链接后，保持块级布局并重置锚点默认样式 */
+a.xe-widget {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .xe-comment-entry img {
     float: left;
     display: block;
